@@ -1,0 +1,39 @@
+.show--profile{
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* transform: translatey(-10%); */
+    transition: all 0.3s ;
+}
+
+
+.hide--profile {
+    opacity: 0;
+    text-align: center;
+    transform: translatey(-50%);
+    transition: all 0.3s ;
+    visibility: hidden;  
+}
+
+img {
+
+    height: 45px;
+    width: 100px;
+    background-color: black;
+    background: none;
+}
+
+.hide--nav{
+    opacity: 0;
+    text-align: center;
+    transform: translatey(-200px);
+    transition: all 0.5s ;
+    visibility: hidden;
+
+}
+.show--nav{
+    opacity: 1;
+    transform: translatey(0px);
+    transition: all 0.3s ;
+}
